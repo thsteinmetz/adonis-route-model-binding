@@ -1,0 +1,29 @@
+
+{
+  "name": "adonis-route-model-binding",
+  "version": "0.1.0",
+  "description": "Easy route model binding in AdonisJS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thsteinmetz/adonis-route-model-binding.git"
+  },
+  "keywords": [
+    "route",
+    "adonis",
+    "adonisjs",
+    "adonis models",
+    "adonis route model binding"
+  ],
+  "author": "Thomas Steinmetz <thsteinmetz@gmail.com>",
+  "license": "WTFPL",
+  "peerDependencies": {
+    "@adonisjs/fold": "^4.0.5"
+  },
+  "bugs": {
+    "url": "https://github.com/thsteinmetz/adonis-route-model-binding/issues"
+  },
+  "homepage": "https://github.com/thsteinmetz/adonis-route-model-binding#readme"
+}
