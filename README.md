@@ -2,6 +2,8 @@
 
 This package just takes the example from the the [AdonisJS](https://adonisjs.com) documentation about [extending routes](https://adonisjs.com/docs/4.1/routing#_extending_routes) and adds an additional lookup parameter (the field to look up on) to it.
 
+This package is for AdonisJS 4.x.
+
 ## Example Usage
 
 First install this package
@@ -38,7 +40,7 @@ What does that mean? Below is an explanation of the list of parameters on the ab
 
 3. `userId` is the route parameter that we are using. The `:userId` on `some/route/:userId` in this case
 
-4. `id` is the field we are going to look up the value of `userId` in
+4. *Optional* `id` is the database field we are going to look up the value of `userId` in. `id` is the default so you can leave this off unless you want to explicitly look up on another field.
 
 Now in your controller you will have access to the `user` object on the `show()` method:
 
